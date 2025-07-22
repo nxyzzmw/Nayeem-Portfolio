@@ -213,7 +213,7 @@ export default function App() {
         {/* Resume */}
         <section id="resume" className={`${sectionStyle} text-center`}>
           <h2 className="text-3xl font-bold mb-6">Resume</h2>
-          <a href="/Mohamed_Nayeemullah_S_Resume_1.pdf" download className="bg-green-600 hover:bg-green-700 px-6 py-3 text-white rounded">
+          <a href="/Mohamed Nayeemullah S Resume 1.pdf" download className="bg-green-600 hover:bg-green-700 px-6 py-3 text-white rounded">
             Download PDF
           </a>
         </section>
