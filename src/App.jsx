@@ -117,7 +117,7 @@ export default function App() {
           <h2 className="text-3xl font-bold mb-4 text-white drop-shadow-md text-center sm:text-left">About</h2>
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <img
-              src="nayeem photo.png"
+              src="/nayeem photo.png"
               alt="Nayeem profile"
               className="rounded-full w-40 h-40 object-cover border-4 border-yellow-300 shadow-lg hover:scale-105 transition duration-300"
             />
@@ -213,7 +213,7 @@ export default function App() {
         {/* Resume */}
         <section id="resume" className={`${sectionStyle} text-center`}>
           <h2 className="text-3xl font-bold mb-6">Resume</h2>
-          <a href="Mohamed Nayeemullah S Resume 1.pdf" download className="bg-green-600 hover:bg-green-700 px-6 py-3 text-white rounded">
+          <a href="/Mohamed_Nayeemullah_S_Resume_1.pdf" download className="bg-green-600 hover:bg-green-700 px-6 py-3 text-white rounded">
             Download PDF
           </a>
         </section>
